@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Business Analytics Report API",
+    "description": "The IoT Accelerator Business Analytics Report API provides report and invoice resources to retrieve an organization's report and invoice information.",
+    "category": "Analytics",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4a6600/assets/local/iot-portal/doc/iota_rest_api_business-analytics-report-api.yaml"
+  },
+  {
+    "title": "Organization Signaling Aggregations API",
+    "description": "The IoT Organization signaling aggregations API provides aggregated traffic data on real-time usage statistics of traffic analytics.",
+    "category": "Analytics",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/48fd52/assets/local/iot-portal/doc/organization-signaling-aggregations-api.yaml"
+  },
+  {
+    "title": "Subscription API",
+    "description": "This API offers a web application interface to perform operations related to the inventory and management of subscriptions.",
+    "category": "Application",
+    "name": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4aa7fa/assets/local/iot-portal/doc/iota_rest_api_device_reconnect_1.0.yaml"
+  },
+  {
+    "title": "Subscription Change History API",
+    "description": "The Subscription Change History API provides resources to retrieve an organization's subscription change history information. The Subscription Change History API is based on the Representational State Transfer (REST) interface.",
+    "category": "Application",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4aa7fa/assets/local/iot-portal/doc/iota_rest_api_subscription_change_history_1.0.yaml"
+  },
+  {
+    "title": "Subscription Search API",
+    "description": "The IoT Accelerator Subscription Search API provides resources to retrieve an organization's subscription detail information. The Subscription Search API is based on the Representational State Transfer (REST) interface.",
+    "category": "Application",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49dfac/assets/local/iot-portal/doc/iota_rest_api_subscription-search-api.yaml"
+  },
+  {
+    "title": "Business Automation API",
+    "description": "The IoTA Business Automation API provides REST endpoints for Rulesets Management and Triggered Actions.",
+    "category": "Automation",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/492a7c/assets/local/iot-portal/doc/business-automation-api.yaml"
+  },
+  {
+    "title": "SMS Messaging API specifications API",
+    "description": "The IoT Accelerator SMS Messaging API allows a web application to send and receive SMS messages over HTTPS and simplifies the communication between the enterprise and the IoT Accelerator SMSC. The service supports the sending and receiving of both binary and text SMS messages.",
+    "category": "Communication",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4aa7fa/assets/local/iot-portal/doc/iota_rest_api_sms_messaging_3.0.0.yaml"
+  },
+  {
+    "title": "Subscription Signalling Events API",
+    "description": "This low level API provides resources for getting signalling events for subscriptions.",
+    "category": "Connectivity",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49c915/assets/local/iot-portal/doc/iota_rest_api_subscription-signalling-events-api.yaml"
+  },
+  {
+    "title": "Subscription Signalling Usages API",
+    "description": "This API provides resources for getting aggregated usage reports for subscriptions.",
+    "category": "Connectivity",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49c8b9/assets/local/iot-portal/doc/iota_rest_api_subscription-signalling-usages-api.yaml"
+  },
+  {
+    "title": "Shared Bundle API",
+    "description": "This document describes the IoT Accelerator Shared Bundle API that provides resources to retrieve information about an organization's usage and limits of shared bundles. The Shared Bundle API is based on the Representational State Transfer (REST) interface. From this point on, the Shared Bundle API is referred to as API in this document.",
+    "category": "Connectivity",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4aa7fa/assets/local/iot-portal/doc/iota_rest_api_shared_bundle_2.0.yaml"
+  },
+  {
+    "title": "EUICC Setup API",
+    "description": "This API provides operations for setting up EUICC (eUICC) profiles.",
+    "category": "Connectivity",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4a6957/assets/local/iot-portal/doc/iota_rest_api_euicc-setup-api-v1.0.0.yaml"
+  },
+  {
+    "title": "Resource Inventory API",
+    "description": "The IoT Accelerator Resource Inventory API provides resources to retrieve an organization's network resources and services.",
+    "category": "Database",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4942d8/assets/local/iot-portal/doc/resource-inventory-api.yaml"
+  },
+  {
+    "title": "Subscription Management API",
+    "description": "The IoT Accelerator Subscription Management API that perform operations related to the inventory and management of subscriptions. The Subscription Management API is based on the Representational State Transfer (REST) interface. From this point on, the Subscription Management API is referred to as API in this document.",
+    "category": "Management",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.2",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/4aa7fa/assets/local/iot-portal/doc/iota_rest_api_subscription_management_additional_functions_0.0.5.yaml"
+  },
+  {
+    "title": "IoTA MH API Spec API",
+    "description": "IoTA Marketplace Hub API specification",
+    "category": "Marketplace",
+    "date": "",
+    "version": "3.0.1",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/490e13/assets/local/iot-portal/doc/marketplace-hub-rest-api-specification.yaml"
+  },
+  {
+    "title": "Device API",
+    "description": "The IoT Accelerator Device API provides resources to retrieve device inventory and details.",
+    "category": "Monitoring",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/48ff4b/assets/local/iot-portal/doc/device-api-sim-euicc-inventory.yaml"
+  },
+  {
+    "title": "IOTA Incident Management API",
+    "description": "The IOTA Incident Management API provides resources to create, view, and manage incidents. This API is an out-of-the-box capability of the IoT Management Platform from BMC Vendor.",
+    "category": "Monitoring",
+    "date": "",
+    "version": "3.0.1",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49013a/assets/local/iot-portal/doc/iota-incident-management-api.yaml"
+  },
+  {
+    "title": "Enterprise Management API",
+    "description": "This API provides a resource for getting information about enterprises and managing them.This API is rate-limited, exact limits are available in response message headers.",
+    "category": "Monitoring",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49536c/assets/local/iot-portal/doc/iota_rest_api_enterprise_management_2_3_0.yaml"
+  },
+  {
+    "title": "SIM Specification Management API",
+    "description": "The IoTA BSS SIM Specification API provides CRUD operations for SIM specifications and a possibility to retrieve file share information.",
+    "category": "Monitoring",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/48fee6/assets/local/iot-portal/doc/sim-specification-api.yaml"
+  },
+  {
+    "title": "Incident Management API",
+    "description": "This API provides resources for managing incidents and retrieving incident information.",
+    "category": "Security",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.0",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49c952/assets/local/iot-portal/doc/iota_rest_api_ticketing_service_incident_management_1.0.yaml"
+  },
+  {
+    "title": "Subscription Custom Fields API",
+    "description": "The IoT Accelerator Subscription Custom Fields API provides resources to manage custom fields associated with subscriptions.",
+    "category": "Subscription",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/491ed7/assets/local/iot-portal/doc/iota_rest_api_custom_fields_0.0.2.yaml"
+  },
+  {
+    "title": "Subscription Location API",
+    "description": "The IoT Accelerator Subscription Location API returns the Cell Global Identity (CGI) of a subscription.",
+    "category": "Subscription",
+    "name": "",
+    "email": "",
+    "date": "",
+    "version": "3.0.3",
+    "dependencies": [],
+    "specification": "https://editor.swagger.io/?url=https://iot.developer.ericsson.com/49c7c4/assets/local/iot-portal/doc/iota_rest_api_subscription-location-api.yaml"
+  }
+]

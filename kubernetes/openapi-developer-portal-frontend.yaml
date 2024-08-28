@@ -1,0 +1,38 @@
+# ... Deployment YAML definition
+apiVersion : apps/v1 # API version
+kind : Deployment # Type of kubernetes resource
+metadata :
+    name : openapi-developer-portal-frontend-deploy # Name of the kubernetes resource
+    namespace : openapi-developer-portal-app-namespace
+spec :
+    replicas : 1 # No of replicas/pods to run
+    selector :
+        matchLabels : # This deployment applies to Pods matching the specified labels
+            app : openapi-developer-portal-client
+
+    template : # Template for creating the Pods in this deployment
+        metadata :
+            name : openapi-developer-portal-frontend-pod
+            labels : # Labels that will be applied to all the Pods in this deployment
+                app : openapi-developer-portal-client
+        spec : # Spec for the containers that will run inside the Pods
+            containers :
+                -   name : openapi-developer-portal-frontend
+                    image : ericsson/openapi-developer-portal-frontend
+                    imagePullPolicy : IfNotPresent
+                    ports :
+                        -   containerPort : 3000 # Should match the Port that the container listens on
+---
+# ... Service YAML definition
+apiVersion : v1 # API version
+kind : Service # Type of kubernetes resource
+metadata :
+    name : openapi-developer-portal-frontend-service # Name of the kubernetes resource
+    namespace : openapi-developer-portal-app-namespace
+spec :
+    type : NodePort # Exposes the service by opening a port on each node
+    selector :
+        app : openapi-developer-portal-client # Any Pod matching the label `app=openapi-developer-portal-client` will be picked up by this service
+    ports : # Forward incoming connections on port 80 to the target port 80 in the Pod
+        -   port : 3000
+            targetPort : 3000
